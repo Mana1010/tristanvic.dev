@@ -4,12 +4,12 @@ import Image from "next/image";
 function AboutMe() {
   return (
     <div className="flex items-center w-full">
-      {/* <div className="size-24 relative">
+      {/* <div className="aspect-video relative bg-red-500">
         <Image
           src={streetSceneEve}
           sizes="100%"
           fill
-          className="absolute inset-0"
+          className="absolute inset-0 object-cover rounded-md"
           alt="Profile picture"
           priority
         />
@@ -21,7 +21,7 @@ function AboutMe() {
           </span>{" "}
           <span className="text-zinc-300 text-sm">About Me</span>
         </h1>
-        <p className="text-[#F0F1F3] text-[0.78rem] poppins-thin leading-6">
+        <p className="text-zinc-200 text-[0.78rem] poppins-thin leading-6">
           🗒️: Hi! I&apos;m a 4th year Information Tech student specializing in
           the MERN stack with a focus on real-time applications using Socket.io.
           I care deeply about writing quality code — I&apos;d rather get it

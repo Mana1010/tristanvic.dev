@@ -61,11 +61,12 @@ function ProfileSide() {
           </ul>
         </div>
         <a
-          download="ClaritoResume.pdf"
-          href="/ClaritoResume.pdf"
+          // download="ClaritoResume.pdf"
+          href="/my_resume.pdf"
+          target="_blank"
           className="rounded-2xl py-1.5 px-5 bg-transparent text-primary text-[0.79rem] border border-zinc-700 duration-200 transition-colors hover:bg-primary hover:text-white cursor-pointer mx-5 text-center"
         >
-          Dowload CV
+          Show CV
         </a>
       </div>
       <div className=" flex space-x-2.5 justify-center items-center w-full pb-5">
