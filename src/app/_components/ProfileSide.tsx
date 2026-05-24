@@ -10,7 +10,7 @@ import {
 } from "react-icons/si";
 import { FaGithub, FaFacebook, FaLinkedin } from "react-icons/fa";
 import Image from "next/image";
-import profileBg from "../../../public/profile-bg.svg";
+import profileBg from "../../../public/profile_bg_2.svg";
 function ProfileSide() {
   return (
     <div

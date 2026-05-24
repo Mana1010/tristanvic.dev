@@ -33,14 +33,16 @@ function FeaturedProjects() {
                       <Image
                         src={proj.logo}
                         width={
-                          proj.name === "CommuHelp" ||
-                          proj.name === "Memory Game"
+                          ["CommuHelp", "Memory Game", "Fresh Basket"].includes(
+                            proj.name,
+                          )
                             ? 40
                             : 30
                         }
                         height={
-                          proj.name === "CommuHelp" ||
-                          proj.name === "Memory Game"
+                          ["CommuHelp", "Memory Game", "Fresh Basket"].includes(
+                            proj.name,
+                          )
                             ? 40
                             : 30
                         }
