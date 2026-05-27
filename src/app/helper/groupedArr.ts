@@ -14,6 +14,5 @@ export function groupedProjects(): [string, Omit<ProjectType, "type">[]][] {
       map.set(type, [proj]);
     }
   });
-  console.log([...map]);
   return [...map];
 }

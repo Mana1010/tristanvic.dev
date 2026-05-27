@@ -16,8 +16,8 @@ function ProfileSide() {
     <div
       style={{
         backgroundImage: `url(${profileBg.src})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
+        backgroundSize: "contain",
+        backgroundPosition: "top",
         backgroundRepeat: "no-repeat",
       }}
       className="flex space-x-2 w-full md:basis-[40%] lg:basis-[30%] h-full flex-col p-2 rounded-lg space-y-2 justify-between"
@@ -69,7 +69,7 @@ function ProfileSide() {
           Show CV
         </a>
       </div>
-      <div className=" flex space-x-2.5 justify-center items-center w-full pb-5">
+      {/* <div className=" flex space-x-2.5 justify-center items-center w-full pb-5">
         <span className="text-primary/80 text-2xl">
           <SiNextdotjs />
         </span>
@@ -91,7 +91,7 @@ function ProfileSide() {
         <span className="text-primary/80 text-2xl">
           <SiTailwindcss />
         </span>
-      </div>
+      </div> */}
     </div>
   );
 }

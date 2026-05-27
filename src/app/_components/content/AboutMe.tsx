@@ -22,13 +22,13 @@ function AboutMe() {
           <span className="text-zinc-300 text-sm">About Me</span>
         </h1>
         <p className="text-zinc-200 text-[0.78rem] poppins-thin leading-6">
-          🗒️: Hi! I&apos;m a 4th year Information Tech student specializing in
-          the MERN stack with a focus on real-time applications using Socket.io.
-          I care deeply about writing quality code — I&apos;d rather get it
-          right than get it done fast. With three years of experience in web
-          development, I&apos;m always seeking to learn, improve, and take on
-          challenges that push me to grow. My goal is to build applications that
-          are not just functional, but genuinely well-crafted.
+          Hi! I&apos;m Tristan, a 4th-year IT student and full-stack developer
+          focused on the MERN stack and real-time applications with Socket.IO. I
+          value clean architecture, maintainable code, and thoughtful user
+          experiences. With three years of experience in web development, I
+          enjoy building systems that are not only functional, but genuinely
+          well-crafted. I&apos;m always exploring new technologies, improving my
+          skills, and taking on projects that challenge me to grow.
         </p>
       </div>
     </div>
