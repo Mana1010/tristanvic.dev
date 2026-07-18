@@ -21,7 +21,7 @@ function AboutMe() {
           </span>{" "}
           <span className="text-zinc-300 text-sm">About Me</span>
         </h1>
-        <p className="text-zinc-200 text-[0.78rem] poppins-thin leading-6">
+        <p className="text-zinc-300 text-sm poppins-thin leading-6">
           Hi! I&apos;m Tristan, a 4th-year IT student and full-stack developer
           focused on the MERN stack and real-time applications with Socket.IO. I
           value clean architecture, maintainable code, and thoughtful user

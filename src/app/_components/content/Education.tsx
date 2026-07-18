@@ -29,14 +29,12 @@ function Education() {
             className="border-zinc-700 border flex justify-between space-y-1 rounded-md p-2"
           >
             <div className="flex flex-col space-y-1">
-              <span className="text-primary poppins-semibold text-[0.6rem]">
+              <span className="text-primary poppins-semibold text-[0.7rem]">
                 {educ.circa}
               </span>
               <div>
-                <h5 className="text-zinc-100 text-[0.7rem]">
-                  {educ.schoolName}
-                </h5>
-                <p className="text-[0.6rem] text-zinc-300/75">{educ.course}</p>
+                <h5 className="text-zinc-100 text-sm">{educ.schoolName}</h5>
+                <p className="text-xs text-zinc-300/75">{educ.course}</p>
               </div>
             </div>
             <span className="text-primary">

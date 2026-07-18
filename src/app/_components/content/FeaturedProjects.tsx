@@ -50,22 +50,20 @@ function FeaturedProjects() {
                         priority
                       />
                       <div className="flex flex-col items-start justify-self-start space-y-1">
-                        <span className="text-primary poppins-semibold text-[0.63rem]">
+                        <span className="text-primary poppins-semibold text-[0.7rem]">
                           {proj.date}
                         </span>
 
                         <div className="flex flex-col items-start gap-0.5">
-                          <h5 className="text-zinc-100 text-[0.7rem]">
-                            {proj.name}
-                          </h5>
-                          <p className="text-[0.63rem] text-start text-zinc-300/75">
+                          <h5 className="text-zinc-100 text-sm">{proj.name}</h5>
+                          <p className="text-xs leading-5 text-start text-zinc-300/75">
                             {proj.description}
                           </p>
-                          <div className="flex gap-1 flex-wrap pt-1.5">
+                          <div className="flex gap-1.5 flex-wrap pt-1.5">
                             {proj.technologies.map((t) => (
                               <span
                                 key={t}
-                                className="text-zinc-300 text-[0.63rem] px-2 py-0.5 rounded-3xl bg-primary/25 border border-primary/50"
+                                className="text-zinc-300 text-xs px-3 py-0.5 rounded-3xl bg-primary/25 border border-primary/50"
                               >
                                 {t}
                               </span>

@@ -27,16 +27,22 @@ function Experience() {
                 className="rounded-full self-start"
               />
               <div className="flex flex-col space-y-1">
-                <span className="text-primary poppins-semibold text-[0.6rem]">
+                <span className="text-primary poppins-semibold text-[0.7rem]">
                   {exp.date}
                 </span>
                 <div>
-                  <h5 className="text-zinc-100 text-[0.7rem]">{exp.company}</h5>
-                  <p className="text-[0.6rem] text-primary/95">
-                    {exp.position}
-                  </p>
-                  <p className="text-[0.6rem] text-zinc-300/75">
-                    {exp.description}
+                  <h5 className="text-zinc-100 text-sm">{exp.company}</h5>
+                  <p className="text-xs text-primary/95">{exp.position}</p>
+                  <p className="text-xs flex flex-col gap-2 text-zinc-300/75 leading-5">
+                    {exp.description
+                      .split("*")
+                      .slice(1)
+                      .map((line, i) => (
+                        <span key={i}>
+                          {"• " + line}
+                          <br />
+                        </span>
+                      ))}
                   </p>
                 </div>
               </div>

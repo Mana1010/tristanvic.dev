@@ -98,20 +98,12 @@ export const FEATURED_PROJECTS = [
 export const EXPERIENCE = [
   {
     company: "SERVIO Technologies",
-    date: "May 2026 - Present",
-    position: "Intern",
+    date: "Feb 2026 - Present",
+    position: "IT Intern",
     logo: servioLogo,
-    description: `Intern focused on ERPNext and Frappe infrastructure operations, assisting in DevOps-related tasks including consolidation of sandbox environments into a centralized DigitalOcean droplet deployment. Worked with containerized environments, deployment configurations, and server-side setup to support ERP system operations and environment management.
-        
-      `,
-  },
-  {
-    company: "SERVIO Technologies",
-    date: "Feb 2026 - May 2026",
-    position: "OJT Trainee",
-    logo: servioLogo,
-    description: `
-OJT Trainee focused on ERPNext and Frappe operations, contributing to ERP customization, BIR source mapping, accounting investigations, and system testing. Worked on 200+ journal and GL entry corrections, created training module outlines and presentation materials, and assisted in ERP accounting validation and documentation.
+    description: `*Assisted in deploying ERPNext by merging a sandbox bench into an existing production DigitalOcean droplet, enabling multiple bench environments on a shared server.
+*Executed ERPNext test data imports, documented import procedures and validation results, and monitored the migration process to ensure successful implementation.
+*Investigated import failures and deployment-related issues, identified root causes, and supported troubleshooting efforts to improve the reliability of the implementation process.
       `,
   },
 ] as const;
