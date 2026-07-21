@@ -4,13 +4,17 @@ import Skills from "./content/Skills";
 import Education from "./content/Education";
 import Experience from "./content/Experience";
 import FeaturedProjects from "./content/FeaturedProjects";
+import Stacks from "./content/Stacks";
 
 function ContentSide() {
   return (
     <div className="flex space-x-2 items-center w-full md:basis-[60%] scrollbar-hidden lg:basis-[70%] bg-zinc-700/45 md:h-full flex-col p-2 rounded-lg space-y-5 px-5  overflow-y-auto">
       <AboutMe />
       <div className="border-b border-zinc-500/75 w-1/2" />
+
       <Skills />
+      <div className="border-b border-zinc-500/75 w-1/2" />
+      <Stacks />
       <div className="border-b border-zinc-500/75 w-1/2" />
       <Experience />
       <div className="border-b border-zinc-500/75 w-1/2" />

@@ -107,3 +107,161 @@ export const EXPERIENCE = [
       `,
   },
 ] as const;
+
+export const STACKS = [
+  {
+    name: "TypeScript",
+    description:
+      "A strongly typed superset of JavaScript that compiles to plain JavaScript.",
+    type: "Language",
+    color: "#3178C6",
+  },
+  {
+    name: "JavaScript",
+    description: "The core scripting language of the web.",
+    type: "Language",
+    color: "#F7DF1E",
+  },
+  {
+    name: "Python",
+    description:
+      "A general-purpose programming language used for scripting and backend logic.",
+    type: "Language",
+    color: "#3776AB",
+  },
+
+  {
+    name: "Next.js",
+    description:
+      "A React framework for building server-side rendered and statically generated web applications.",
+    type: "Frontend",
+    color: "#000000",
+  },
+  {
+    name: "React.js",
+    description:
+      "A JavaScript library for building user interfaces with reusable components.",
+    type: "Frontend",
+    color: "#61DAFB",
+  },
+  {
+    name: "Tailwind CSS",
+    description:
+      "A utility-first CSS framework for building custom designs quickly.",
+    type: "Frontend",
+    color: "#06B6D4",
+  },
+  {
+    name: "React Query",
+    description:
+      "A data-fetching and state management library for handling server state in React.",
+    type: "Frontend",
+    color: "#FF4154",
+  },
+
+  {
+    name: "Node.js",
+    description: "A JavaScript runtime used for running server-side code.",
+    type: "Backend",
+    color: "#5FA04E",
+  },
+  {
+    name: "Express.js",
+    description:
+      "A minimal Node.js framework used to build REST APIs, including JWT-authenticated endpoints.",
+    type: "Backend",
+    color: "#404040",
+  },
+  {
+    name: "Socket.IO",
+    description:
+      "A library for real-time, bidirectional communication between clients and servers.",
+    type: "Backend",
+    color: "#010101",
+  },
+  {
+    name: "Frappe Framework",
+    description:
+      "A full-stack Python and JavaScript framework used to build web applications, including ERPNext.",
+    type: "Backend",
+    color: "#0089FF",
+  },
+  {
+    name: "ERPNext",
+    description:
+      "An open-source ERP platform for business process management, built on the Frappe Framework.",
+    type: "Backend",
+    color: "#2490EF",
+  },
+
+  {
+    name: "PostgreSQL",
+    description:
+      "An open-source relational database, accessed here via the Prisma ORM.",
+    type: "Database",
+    color: "#336791",
+  },
+  {
+    name: "Prisma",
+    description: "A type-safe ORM used to interact with PostgreSQL databases.",
+    type: "Database",
+    color: "#2D3748",
+  },
+  {
+    name: "MongoDB",
+    description:
+      "A NoSQL document database, accessed here via the Mongoose ODM.",
+    type: "Database",
+    color: "#47A248",
+  },
+  {
+    name: "Mongoose",
+    description:
+      "An ODM library for modeling MongoDB data in Node.js applications.",
+    type: "Database",
+    color: "#880000",
+  },
+
+  {
+    name: "Git",
+    description:
+      "A distributed version control system for tracking code changes.",
+    type: "DevOps",
+    color: "#F05032",
+  },
+  {
+    name: "GitHub",
+    description:
+      "A platform for hosting and collaborating on Git repositories.",
+    type: "DevOps",
+    color: "#181717",
+  },
+
+  {
+    name: "Postman",
+    description: "A tool for building, testing, and documenting REST APIs.",
+    type: "Tools",
+    color: "#FF6C37",
+  },
+  {
+    name: "Figma",
+    description:
+      "A collaborative design tool used for basic UI/UX prototyping.",
+    type: "Tools",
+    color: "#A259FF",
+  },
+  {
+    name: "ChatGPT",
+    description:
+      "An AI assistant used to support development and problem-solving.",
+    type: "Tools",
+    color: "#10A37F",
+  },
+  {
+    name: "GitHub Copilot",
+    description:
+      "An AI pair-programming tool that provides code suggestions inline.",
+    type: "Tools",
+    color: "#00C4B3",
+  },
+] as const;
